@@ -14,11 +14,11 @@ INSERT INTO Cliente (Id, Nome, Data_nasc, Nacionalidade, NIF, Email, Telefone, C
 
 INSERT INTO Funcionario (Id, Nome, Cargo, Horas_trabalhadas, StandId) VALUES
 (1, 'Carlos Mendes', 'Vendedor', 160, 1),
-(2, 'Ana Costa', 'Gestora', 170, 2),
-(3, 'Bruno Teixeira', 'Mecânico', 150, 1),
+(2, 'Ana Costa', 'Gerente', 170, 2),
+(3, 'Bruno Teixeira', 'Vendedor', 150, 1),
 (4, 'Inês Pereira', 'Assistente', 140, 3),
 (5, 'Fábio Lima', 'Vendedor', 155, 2),
-(6, 'Clara Matos', 'Gestora', 165, 3);
+(6, 'Clara Matos', 'Gerente', 165, 3);
 
 INSERT INTO Veiculo (Id, Matricula, Modelo, Marca, Tipo, Estado, Preço, Histórico, StandId) VALUES
 (1, 'AA-11-BB', 'Clio', 'Renault', 'Normal', 'Disponível', 75.00, 'Sem ocorrências.', 1),
