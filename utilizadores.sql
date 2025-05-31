@@ -1,11 +1,9 @@
-
+-- DROP ROLE IF EXISTS
+--    'proprietario'@'localhost',
+--    'gerente'@'localhost',
+--   'funcionario'@'localhost';
 -- Criar as ROLES
-DROP ROLE IF EXISTS
-    'proprietario'@'localhost',
-    'gerente'@'localhost',
-    'funcionario'@'localhost';
-    
-CREATE ROLE
+CREATE ROLE IF NOT EXISTS 
     'proprietario'@'localhost',
     'gerente'@'localhost',
     'funcionario'@'localhost';
@@ -35,13 +33,13 @@ GRANT SELECT(Estado, Data_início, Data_fim, Preço_total) ON PM_Veículos.Alugu
 -- Apenas o proprietário pode alterar o preço dos veículos
 GRANT UPDATE(Preço) ON PM_Veículos.Veiculo TO 'proprietario'@'localhost';
 
--- Criar os utilizadores
-DROP USER IF EXISTS
-    'pedro.monteiro'@'localhost',
-    'ana.costa'@'localhost',
-    'carlos.mendes'@'localhost';
 
-CREATE USER
+-- DROP USER IF EXISTS
+--    'pedro.monteiro'@'localhost',
+--    'ana.costa'@'localhost',
+--    'carlos.mendes'@'localhost';
+-- Criar os utilizadores
+CREATE USER IF NOT EXISTS
     'pedro.monteiro'@'localhost' IDENTIFIED BY 'adminpm2025',
     'ana.costa'@'localhost' IDENTIFIED BY 'gerenteporto2025',
     'carlos.mendes'@'localhost' IDENTIFIED BY 'funcporto2025';
