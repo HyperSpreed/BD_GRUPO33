@@ -68,7 +68,7 @@ SELECT A.Id AS AluguerId,
 -- ================================================
 SELECT *
   FROM Aluguer
- WHERE ClienteId = :c;
+ WHERE ClienteId = ?;
 
 
 -- ================================================
@@ -84,7 +84,7 @@ SELECT AVG(R.NumAlug) AS MediaAlugueresPorDia
            FROM Aluguer AS A
            JOIN Veiculo AS V
              ON A.VeículoId = V.Id
-          WHERE V.StandId = :s
+          WHERE V.StandId = ?
           GROUP
              BY A.Data_início
        ) AS R;
@@ -95,7 +95,7 @@ SELECT AVG(R.NumAlug) AS MediaAlugueresPorDia
 -- ================================================
 SELECT *
   FROM Aluguer
- WHERE FuncionarioId = :f;
+ WHERE FuncionarioId = ?;
 
 
 -- ================================================
@@ -104,7 +104,7 @@ SELECT *
 SELECT Nome,
        Horas_trabalhadas
   FROM Funcionario
- WHERE Id = :f;
+ WHERE Id = ?;
 
 
 -- ================================================
@@ -112,7 +112,7 @@ SELECT Nome,
 -- ================================================
 SELECT *
   FROM Veiculo
- WHERE Tipo = :t;
+ WHERE Tipo = ?;
 
 
 -- ================================================
@@ -120,7 +120,7 @@ SELECT *
 -- ================================================
 SELECT *
   FROM Cliente
- WHERE Nacionalidade = :n;
+ WHERE Nacionalidade = ?;
 
 
 -- ================================================
@@ -128,4 +128,6 @@ SELECT *
 -- ================================================
 SELECT *
   FROM Cliente
- WHERE Localidade = :l;
+ WHERE Localidade = ?;
+
+
