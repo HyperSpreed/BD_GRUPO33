@@ -1,0 +1,24 @@
+[
+  {
+    "Id": 11,
+    "Matricula": "TT-11-YY",
+    "Modelo": "Megane",
+    "Marca": "Renault",
+    "Tipo": "Normal",
+    "Estado": "Disponível",
+    "Preço": 78.00,
+    "Histórico": "Revisão em dia.",
+    "StandId": 1
+  },
+  {
+    "Id": 12,
+    "Matricula": "UU-22-ZZ",
+    "Modelo": "i30",
+    "Marca": "Hyundai",
+    "Tipo": "Normal",
+    "Estado": "Alugado",
+    "Preço": 82.50,
+    "Histórico": "Nenhuma ocorrência.",
+    "StandId": 2
+  }
+]

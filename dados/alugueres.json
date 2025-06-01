@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 9,
+    "Data_início": "2025-06-02",
+    "Data_fim": "2025-06-09",
+    "Preço_total": 546.00,
+    "Estado": "Bom",
+    "ClienteId": 2,
+    "FuncionarioId": 3,
+    "VeículoId": 11
+  },
+  {
+    "Id": 10,
+    "Data_início": "2025-06-10",
+    "Data_fim": "2025-06-15",
+    "Preço_total": 412.50,
+    "Estado": "Normal",
+    "ClienteId": 4,
+    "FuncionarioId": 6,
+    "VeículoId": 12
+  }
+]
