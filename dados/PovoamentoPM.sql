@@ -1,5 +1,5 @@
 INSERT INTO Stand (Id, Data_inauguração, Telefone, Cod_Postal, Rua, Localidade) VALUES
-(1, '2012-12-12', 252180799, '4470-995', 'Rua da Caralinda', 'Porto'),
+(1, '1999-10-27', 252180799, '4470-995', 'Rua da Caralinda', 'Porto'),
 (2, '2015-09-15', 212345678, '4000-002', 'Avenida Central', 'Lisboa'),
 (3, '2020-01-03', 213456789, '8000-003', 'Estrada do Sul', 'Portimão');
 
