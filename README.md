@@ -11,8 +11,8 @@
 | Nome           | Número  |
 | -------------- | ------- |
 | Tiago Carneiro | A93207  |
-| Diogo Gonçalves| A101919 |
-| Tiago Guedes   | A97369  |
+| João Costa     | A100707 |
+| Sandro Coelho  | A105672 |
 
 Nota : ??
 
