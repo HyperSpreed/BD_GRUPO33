@@ -14,7 +14,7 @@
 | João Costa     | A100707 |
 | Sandro Coelho  | A105672 |
 
-Nota : ??
+Nota : 13
 
 </div>
 # BD, UMINHO
